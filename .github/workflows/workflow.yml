@@ -2,9 +2,9 @@ name: ci-cd
 
 on:
   push:
-    branches: [https://github.com/KrupalPatel18/ci-cd-final-project.git]
+    branches: [main]
   pull_request:
-    branches: [https://github.com/KrupalPatel18/ci-cd-final-project.git]
+    branches: [main]
 
 jobs:
   build:
